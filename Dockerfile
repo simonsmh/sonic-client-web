@@ -1,4 +1,4 @@
-FROM sonicorg/sonic-client-web-base:v1.0.0
+FROM ghcr.io/simonsmh/sonic-client-web-base:main
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY dist/  /usr/share/nginx/html/
